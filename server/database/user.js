@@ -1,6 +1,6 @@
 const Router = require('express-promise-router')
 
-const db = require('../db')
+const db = require('./index.js')
 
 // create a new express-promise-router
 // this has the same API as the normal express router except

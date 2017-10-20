@@ -9,7 +9,7 @@ export class DataService {
   constructor(private _http: Http) { }
 
   getUsers() {
-    return this._http.get("/users")
+    return this._http.get('/users')
       .map(res => res.json());
   }
 }
